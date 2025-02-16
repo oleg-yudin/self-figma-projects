@@ -1,0 +1,98 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+margin: 0;
+}
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1158px;
+    padding: 15px 15px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+}
+.header-nav{
+    display: flex;
+    gap: 46px;   
+    align-items: center;
+}
+.logo{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 133%;
+        letter-spacing: 0em;
+        color: #252b42;
+        text-decoration: none;
+}
+.nav-list{
+    display: flex;
+    gap: 21px;
+    list-style-type: none;
+    
+}
+.nav-list-ref{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 171%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: #737373;
+        text-decoration: none;
+        transition: color 150ms cubic-bezier(0.075, 0.82, 0.165, 1) ;
+}
+
+
+.nav-list-ref:hover,
+.nav-list-ref:focus{
+    color: red;
+}
+
+.login-button{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+.login{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 157%;
+        letter-spacing: 0.01em;
+        text-align: right;
+        color: #96bb7c;
+    text-decoration: none;
+      transition: color 150ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+.button{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 157%;
+        letter-spacing: 0.01em;
+        color: #fff;
+        border-radius: 5px;
+        border-color: transparent;
+            padding: 15px 25px;
+            width: 138px;
+            height: 52px;
+            background: #96bb7c;
+            text-decoration: none;
+     transition: color 150ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.login:hover,
+.login:focus{
+    color: red;
+}
+.button:hover,
+.button:focus {
+    color: rgb(94, 16, 16);
+    background-color: coral;
+}
