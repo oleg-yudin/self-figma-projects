@@ -3,7 +3,7 @@ body{
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-margin: 0;
+    margin: 0;
 
 }
 p, h1, h2, h3, h4, h5, h6{
@@ -17,8 +17,8 @@ p, h1, h2, h3, h4, h5, h6{
     width: 1158px;
     padding: 15px 15px;
     margin: 0 auto;
-   position: sticky;
-    top: 0;
+   /*position: sticky;
+    top: 0;*/
 }
 .header-nav{
     display: flex;
@@ -87,7 +87,9 @@ p, h1, h2, h3, h4, h5, h6{
             height: 52px;
             background: #96bb7c;
             text-decoration: none;
-     transition: color 150ms cubic-bezier(0.075, 0.82, 0.165, 1);
+     transition: 
+     color 150ms cubic-bezier(0.075, 0.82, 0.165, 1);
+     transition: background-color 500ms ease;
 }
 .login:hover,
 .login:focus{
@@ -167,6 +169,123 @@ p, h1, h2, h3, h4, h5, h6{
 .hero-btn-none:focus {
     color: red;
 }
+.second-page{
+    width: 1050px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    padding: 0 12px;
+}
+.page-title{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 125%;
+        letter-spacing: 0.01em;
+        color: #252b42;
+        margin-top: 146px;
+        text-align: left;
+}
+.page-paragraf{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.01em;
+        color: #737373;
+        max-width: 463px;
+        margin-top: 10px;
+        text-align: left;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 112px;
+}
+.cards-list{
+     box-shadow: 0 13px 19px 0 rgba(0, 0, 0, 0.07);
+        background: #fff;
+    padding-left: 40px;
+    padding-bottom: 35px;    
+    transition: all 250ms ease-in-out;
+}
+.svg{
+    position: relative;
+    width: 238px;
+    height: 118px;
+    margin-bottom: 20px;
+}
+.vector{
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: -40%;
+    fill: #B2E3FF;    
+    transition: all 250ms ease-in-out;
+}
+.icon{
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    transition: all 250ms ease-in-out;
+}
+.icon-title{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        color: #252b42;
+        position: relative;
+        padding-bottom: 20px;
+}
+.icon-title::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #E74040;
+}
+.icon-paragraf{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.01em;
+        color: #737373;
+        margin-top: 20px;
+        max-width: 132px;
+        text-align: left;
+}
+
+.cards-list:hover,
+.cards-list:focus{
+    background-color: #96BB7C;
+    transform: scale(1.15);
+    border: none;
+}
+.cards-list:hover .icon-title,
+.cards-list:hover .icon-paragraf{
+    color: #ffffff;
+}
+.cards-list:hover .icon-title::after{
+    background-color: #ffffff;
+}
+.cards-list:hover .vector{
+    fill: white;
+    transform: scale(1.5);
+}
+.cards-list:hover .icon{
+    transform: scale(1.5);
+}
+
 
 
 .footer{
