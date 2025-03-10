@@ -1,0 +1,457 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+    margin: 0;
+
+}
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+img{
+    display: block;
+}
+/* =================================== */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1158px;
+    padding: 15px 15px;
+    margin: 0 auto;
+   /*position: sticky;
+    top: 0;*/
+}
+.header-nav{
+    display: flex;
+    gap: 46px;   
+    align-items: center;
+}
+
+
+.logo{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 133%;
+        letter-spacing: 0em;
+        color: #252b42;
+        text-decoration: none;
+}
+.nav-list{
+    display: flex;
+    gap: 21px;
+    list-style-type: none;
+    
+}
+.nav-list-ref{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 171%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: #737373;
+        text-decoration: none;
+        transition: color 150ms cubic-bezier(0.075, 0.82, 0.165, 1) ;
+}
+
+
+.nav-list-ref:hover,
+.nav-list-ref:focus{
+    color: red;
+}
+
+.login-button{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+.login{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 157%;
+        letter-spacing: 0.01em;
+        text-align: right;
+        color: #96bb7c;
+    text-decoration: none;
+      transition: color 150ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+.button{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 157%;
+        letter-spacing: 0.01em;
+        color: #fff;
+        border-radius: 5px;
+        border-color: transparent;
+            padding: 15px 25px;
+            width: 138px;
+            height: 52px;
+            background: #96bb7c;
+            text-decoration: none;
+     transition: 
+     color 150ms cubic-bezier(0.075, 0.82, 0.165, 1);
+     transition: background-color 500ms ease;
+}
+.login:hover,
+.login:focus{
+    color: red;
+}
+.button:hover,
+.button:focus {
+    color: rgb(94, 16, 16);
+    background-color: coral;
+}
+.vector{
+    margin-left: 15px;
+}
+
+/* ================================================================ */
+.hero{
+    display: flex;
+    max-width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+}
+.hero-title{
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 138%;
+        letter-spacing: 0em;
+        color: #252b42;
+        margin-top: 200px;
+        max-width: 540px;
+}
+.hero-p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        color: #737373;
+        margin-top: 30px;
+        margin-bottom: 30px;
+}
+.hero-btn-color{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 157%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: #fff;
+        border-radius: 5px;
+        border-color: transparent;
+            padding: 15px 40px;
+            width: 195px;
+            height: 52px;
+            background: #96bb7c;
+            margin-right: 10px;
+    transition: color 150ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.hero-btn-none{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 157%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: #96bb7c;
+        border: 1px solid #96bb7c;
+        background-color: transparent;
+            border-radius: 5px;
+            padding: 15px 40px;
+            width: 165px;
+            height: 52px;
+    transition: color 150ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.hero-btn-color:hover,
+.hero-btn-color:focus{
+    color: red;
+    background-color: aquamarine;
+}
+.hero-btn-none:hover,
+.hero-btn-none:focus {
+    color: red;
+}
+/* --------------------------------------------------------------- */
+.second-page{
+    width: 1050px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 112px 112px;
+}
+.page-title{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 125%;
+        letter-spacing: 0.01em;
+        color: #252b42;
+        margin-top: 146px;
+        text-align: left;
+}
+.page-paragraf{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.01em;
+        color: #737373;
+        max-width: 463px;
+        margin-top: 10px;
+        text-align: left;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 112px;
+   
+}
+.cards-list{
+     box-shadow: 0 13px 19px 0 rgba(0, 0, 0, 0.07);
+        background: #fff;
+     padding-left: 40px; 
+    padding-bottom: 35px;    
+    transition: all 250ms ease-in-out;
+    width: calc((100% - 90px) / 4);
+}
+.svg{
+    position: relative;
+    width: 238px;
+    height: 118px;
+    margin-bottom: 20px;
+}
+.vector{
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: -40%;
+    fill: #B2E3FF;    
+    transition: all 250ms ease-in-out;
+}
+.icon{
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    transition: all 250ms ease-in-out;
+}
+.icon-title{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        color: #252b42;
+        position: relative;
+        padding-bottom: 20px;
+}
+.icon-title::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #E74040;
+}
+.icon-paragraf{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.01em;
+        color: #737373;
+        margin-top: 20px;
+        max-width: 132px;
+        text-align: left;
+}
+
+.cards-list:hover,
+.cards-list:focus{
+    background-color: #96BB7C;
+    transform: scale(1.15);
+    border: none;
+}
+.cards-list:hover .icon-title,
+.cards-list:hover .icon-paragraf{
+    color: #ffffff;
+}
+.cards-list:hover .icon-title::after{
+    background-color: #ffffff;
+}
+.cards-list:hover .vector{
+    fill: white;
+    transform: scale(1.5);
+}
+.cards-list:hover .icon{
+    transform: scale(1.5);
+}
+
+
+
+.footer{
+    width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+}
+.information-contacts-list>ul>h3{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        color: #252b42;
+        margin-bottom: 20px;
+}
+.information-contacts-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 171%;
+        letter-spacing: 0.01em;
+        color: #737373;
+}
+.information-contacts-list>ul{
+    list-style-type: none;
+}
+.referens-list{
+    width: 321px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.footer-contacts{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 171%;
+        letter-spacing: 0.01em;
+        color: #737373;
+        text-decoration: none;
+}   
+.footer-underground{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.social-links{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+.referens-list-item{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+
+}
+.referens-list-img{
+    margin-right: 10px;
+}
+.footer-underground-p{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 171%;
+        letter-spacing: 0.01em;
+        color: #737373;
+}
+
+/* ============================================== */
+.third-page{
+    max-width: 1050px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 112px 112px;
+    display: flex;
+    box-sizing: border-box;
+}
+.third-page-img{
+    margin-right: 147px;
+}
+.page-title{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 125%;
+        letter-spacing: 0.01em;
+        color: #252b42;
+        margin-top: 97px;
+        margin-bottom: 35px;
+        max-width: 250px;
+        position: relative;
+}
+.page-title::before{
+    position: absolute;
+    content: "";
+    width: 94px;
+    height: 7px;
+    background: #e74040;
+    top: -35px;
+}
+
+.page-p{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.43;
+        letter-spacing: 0.01em;
+        color: #737373;
+        width: 345px;
+        margin-bottom: 35px;
+}
+.page-ref{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.01em;
+    color: #96bb7c;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    transition: color 240ms ease-in-out;
+}
+.page-svg{
+    margin-left: 10px;
+    fill: #96bb7c;
+    position: absolute;
+    top: 3px;
+    transition: fill 240ms ease-in-out
+}
+.page-ref:hover{
+    color: rebeccapurple;
+    fill: rebeccapurple;
+}
+.page-ref:hover .page-svg {
+    fill: rebeccapurple;
+}
+/* =============================================================== */
+.four-page{
+        width: 1050px;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 112px 112px;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+}
+.four-title{
+    width: 464px;
+    
+}
