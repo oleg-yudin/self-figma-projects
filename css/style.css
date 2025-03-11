@@ -807,7 +807,8 @@ button{
         justify-content: center;
         align-items: center;
         margin-right: auto;
-}
+} 
+
 .six-page-cards-item:hover,
 .six-page-cards-item:focus{
     background-color: #2d4059;
