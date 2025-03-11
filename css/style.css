@@ -53,8 +53,6 @@ button{
     width: 1050px;
     padding: 0 15px;
     margin: 0 auto;
-    border-left: red 5px solid;
-    border-right: red 5px solid; 
 }
 .header-div{
     display: flex;
@@ -149,7 +147,6 @@ button{
 .hero {
     display: flex;
     padding: 0 15px;
-    /* margin: 0 auto; */
 }
 .hero-info{
     margin-top: 148px;
@@ -166,7 +163,7 @@ button{
     line-height: 1.38;
     letter-spacing: 0em;
     color: #252b42;
-    margin-top: 54px;
+    margin-top: 30px;
     max-width: 540px;
 }
 .hero-p {
@@ -237,7 +234,7 @@ button{
     line-height: 1.25;
     letter-spacing: 0.01em;
     color: #252b42;
-    margin-top: 34px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 .page-paragraf {
@@ -462,7 +459,7 @@ button{
         line-height: 125%;
         letter-spacing: 0.01em;
         color: #252b42;
-        margin-top: 32px;
+        margin-top: 10px;
         margin-bottom: 10px;
 }
 .five-page-text{
@@ -671,7 +668,7 @@ button{
     line-height: 1.25;
     letter-spacing: 0.01em;
     color: #252b42;
-    margin-top: 34px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 .six-page-cards{
@@ -692,7 +689,6 @@ button{
 }
 .six-page-cards-item:nth-child(2){
     position: relative;
-    /* background: #2d4059; */
 }
 
 .new-sticker{
@@ -911,9 +907,77 @@ button{
         color: #737373;
 }
 
-
-
-
+/* -------------section 8==================== */
+.eight-section{
+    background: #fff2f3;
+}
+.eight-page{
+    padding: 195px 0;
+    background: #fff2f3
+}
+.eight-text-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.eigth-page-title{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 125%;
+        letter-spacing: 0.01em;
+        color: #252b42;
+        margin-bottom: 10px;
+}
+.eight-text-block>.page-p{
+    max-width: 463px;
+    text-align: center;
+}
+.form{
+    position: relative;
+}
+.input-email{
+        border: 1px solid #e6e6e6;
+        border-radius: 5px;
+        outline: transparent;
+        padding: 19px 25px;
+        width: 688px;
+        height: 58px;
+        background: #f9f9f9;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding-right: 117px;
+        
+}
+.input-email::placeholder{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 200%;
+        letter-spacing: 0.01em;
+        color: #737373;
+}
+.submit-btn{
+           border: 1px solid #e6e6e6;
+            border-radius: 0 5px 5px 0;
+            padding: 15px 20px;
+            width: 117px;
+            height: 58px;
+            background: #96bb7c;
+            position: absolute;
+            top: 0;
+            right: 175px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 200%;
+            letter-spacing: 0.01em;
+             text-align: center;
+             color: #fff;
+}
 
 /* ----------------footer=============== */
 .footer{
