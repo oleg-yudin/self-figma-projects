@@ -1064,8 +1064,8 @@ button{
 .social-links-svg{
     fill: #96bb7c;
 }
-.social-links-ref:hover .social-links-img,
-.social-links-ref:focus .social-links-img{
-    scale: 1.5;
+.social-links-ref:hover .social-links-svg,
+.social-links-ref:focus .social-links-svg{
+    scale: 1.12;
 }
 
