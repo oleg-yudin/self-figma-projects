@@ -132,6 +132,7 @@ button{
 .vector-btn{
   display: inline-block;
   margin-left: 15px;
+    fill: #fff; 
 }
 .login:hover,
 .login:focus {
@@ -272,14 +273,14 @@ button{
 }
 .vector{
     margin-top: 22px;
-    margin-left: 40px;
+    margin-left: 40px; 
     fill: #B2E3FF;
         transition: all 250ms ease-in-out;
 }
 .icon{
     position: absolute;
-    top: 9px;
-    left: 49px;
+    top: 35px;
+    left: 40px;
     transition: all 250ms ease-in-out;
 }
 .icon-title {
@@ -803,7 +804,10 @@ button{
         justify-content: center;
         align-items: center;
         margin-right: auto;
-} 
+}
+.circle-click-svg{
+    fill: black;
+}
 
 .six-page-cards-item:hover,
 .six-page-cards-item:focus{
@@ -1031,6 +1035,10 @@ button{
     gap: 10px;
     align-items: center;
 }
+.referens-list-svg{
+    fill:#96bb7c;
+}
+
 .footer-underground {
     display: flex;
     justify-content: space-between;
@@ -1052,6 +1060,9 @@ button{
 }
 .social-links-ref{
     transition: scale 500ms ease-in-out;
+}
+.social-links-svg{
+    fill: #96bb7c;
 }
 .social-links-ref:hover .social-links-img,
 .social-links-ref:focus .social-links-img{
